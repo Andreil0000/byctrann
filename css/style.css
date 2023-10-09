@@ -1,0 +1,230 @@
+.root {
+   --color1: #05b1b1;
+   --color2: #52339a;
+}
+section {
+   padding: 100px 0;
+
+}
+
+.row {
+   margin-top: 100px;
+}
+
+.imggg {
+   background-image: url(../img/pattern.png);
+   max-width: 100%;
+}
+
+.header {
+   padding: 200px 0;
+}
+
+header,
+footer {
+   background: linear-gradient(to right, #05b1b1 0%, #05b1b1 0%, #52339a 100%, #52339a 100%);
+   background-size: contain;
+   padding: 50px 0;
+}
+
+.itd_play {
+   background-color: #05b1b1;
+   width: 60px;
+   height: 60px;
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   margin: 30px auto;
+   transition: all 02s ease;
+}
+
+.itd_play:hover {
+   background-color: #52339a;
+}
+
+.itd_triangle {
+   margin-right: -3px;
+   width: 0;
+   height: 0;
+   border-style: solid;
+   border-width: 10px 0 10px 20px;
+   border-color: transparent transparent transparent var(--bs-white);
+}
+
+.bth-itd {
+   display: block;
+   text-align: center;
+   max-width: 200px;
+   margin: 0 auto;
+   padding: 8px 30px;
+   color: var(--bs-white);
+
+   text-decoration: none;
+   background-color: #52339a;
+}
+
+.bth-itd:hover {
+   color: var(--bs-white);
+   background-color: #05b1b1;
+}
+
+.embed-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   height: 0;
+   overflow: hidden;
+   max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+/* О курсе */
+.about,
+.shedule,.author,.artical {
+   background-color: #eee;
+}
+
+.about i {
+   font-size: 25px;
+   color: #52339a;
+}
+
+.itd_circle {
+   margin: 0 auto 15px;
+   width: 70px;
+   height: 70px;
+   border: 3px solid;
+   color: #52339a;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.line {
+   width: 100px;
+   height: 3px;
+   background-color: #05b1b1;
+   margin: 15px auto 30px;
+}
+
+.line:hover {
+   width: 100px;
+   height: 3px;
+   background-color: #52339a;
+   margin: 15px auto 30px;
+}
+
+/* цвет */
+.color1 {
+   color: #05b1b1;
+}
+
+.color2 {
+   color: #52339a;
+}
+
+.bg1 {
+   color: #05b1b1;
+}
+
+.bg2 {
+   color: #52339a;
+}
+
+.text-cneter {
+   display: block;
+   text-align: center;
+}
+
+/* Для кого курс */
+.forwhom h5 {
+   padding: 50px;
+   border: 3px solid #05b1b1;
+}
+
+/* программа курса */
+.accordion-button:not(.collapsed) {
+   color: #eee;
+   background-color: #52339a;
+}
+
+.accordion-button:not(.collased)::after {
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='gray'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* процесс обучение */
+.learning h5 {
+   padding: 25px;
+   border: 3px solid #05b1b1;
+}
+/* Об авторе */
+.author{
+ padding-bottom: 0;
+}
+.itd_img{
+ max-width: 260px;
+}
+/* Отзывы */
+.rounded {
+   padding: 25px;
+   border-radius: 50% !important;
+   border: 3px solid var( #05b1b1);
+}
+/* .text-center {
+   text-align: center!important;
+   margin: 0 auto;
+} */
+.bg{
+   display: block;
+   text-align: center;
+   max-width: 200px;
+   padding: 8px 30px;
+   color: var(--bs-white);
+   text-decoration: none;
+   background-color: #52339a;
+    transition: all 0.5s ease;
+}
+.bg:hover{
+   background-color:#05b1b1;
+   color: #eee;
+}
+/* подвал */
+footer{
+   padding-top: 1px;
+   padding-bottom: 80px;
+}
+li.icon-youtube-play{
+   display: block;
+   list-style: none;
+}
+li.icon-mail-alt{
+   display: block;
+   list-style: none;
+}
+li.icon-paper-plane{
+   display: block;
+   list-style: none;
+}
+li.icon-vkontakte{
+   display: block;
+   list-style: none;
+}
+li.icon-instagram{
+   display: block;
+   list-style: none;
+}
+li.icon-github-circled{
+   display: block;
+   list-style: none;
+}
